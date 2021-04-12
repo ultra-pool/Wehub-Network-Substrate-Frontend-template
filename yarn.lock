@@ -1479,17 +1479,11 @@
   dependencies:
     "@babel/runtime" "^7.13.8"
 
-"@polkadot/networks@6.1.1", "@polkadot/networks@^6.1.1":
+"@polkadot/networks@6.1.1", "@polkadot/networks@^6.0.5", "@polkadot/networks@^6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.1.1.tgz#7725b75a421e80ad6bc152c6ba0e0b5f82153939"
   dependencies:
     "@babel/runtime" "^7.13.10"
-
-"@polkadot/networks@^6.0.5":
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.0.5.tgz#36271138eb2b1b7d79462fa89544d1b90fa77010"
-  dependencies:
-    "@babel/runtime" "^7.13.9"
 
 "@polkadot/rpc-core@4.5.1":
   version "4.5.1"
@@ -1551,13 +1545,23 @@
     mkdirp "^1.0.4"
     store "^2.0.12"
 
-"@polkadot/ui-settings@0.72.1", "@polkadot/ui-settings@^0.72.1":
+"@polkadot/ui-settings@0.72.1":
   version "0.72.1"
   resolved "https://registry.yarnpkg.com/@polkadot/ui-settings/-/ui-settings-0.72.1.tgz#c7a0a45907fb55cf4f95ee39151a3729cacd5f28"
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@polkadot/networks" "^6.0.5"
     "@polkadot/util" "^6.0.5"
+    eventemitter3 "^4.0.7"
+    store "^2.0.12"
+
+"@polkadot/ui-settings@^0.73.1":
+  version "0.73.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/ui-settings/-/ui-settings-0.73.1.tgz#4decb790c23412a9dc663d6606feaa91da2e4a7b"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@polkadot/networks" "^6.1.1"
+    "@polkadot/util" "^6.1.1"
     eventemitter3 "^4.0.7"
     store "^2.0.12"
 
