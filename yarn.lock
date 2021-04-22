@@ -1479,9 +1479,15 @@
   dependencies:
     "@babel/runtime" "^7.13.8"
 
-"@polkadot/networks@6.1.1", "@polkadot/networks@^6.0.5", "@polkadot/networks@^6.1.1":
+"@polkadot/networks@6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.1.1.tgz#7725b75a421e80ad6bc152c6ba0e0b5f82153939"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@polkadot/networks@^6.0.5", "@polkadot/networks@^6.1.1", "@polkadot/networks@^6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.2.1.tgz#9c4d6d34cc6a4a8cd66a00ed13ec01b898f84cf3"
   dependencies:
     "@babel/runtime" "^7.13.10"
 
