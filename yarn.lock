@@ -1515,13 +1515,13 @@
   dependencies:
     "@babel/runtime" "^7.13.8"
 
-"@polkadot/networks@6.1.1", "@polkadot/networks@^6.1.1":
+"@polkadot/networks@6.1.1":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.1.1.tgz#7725b75a421e80ad6bc152c6ba0e0b5f82153939"
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@polkadot/networks@6.3.1", "@polkadot/networks@^6.3.1":
+"@polkadot/networks@6.3.1", "@polkadot/networks@^6.1.1", "@polkadot/networks@^6.3.1":
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.3.1.tgz#c5063681ea73f8b579f418d57d0eba2d4bb72292"
   dependencies:
