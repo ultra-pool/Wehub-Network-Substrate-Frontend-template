@@ -1000,9 +1000,9 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.17", "@babel/runtime@^7.13.7", "@babel/runtime@^7.13.8", "@babel/runtime@^7.13.9", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
-  version "7.13.17"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.17.tgz#8966d1fc9593bf848602f0662d6b4d0069e3a7ec"
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.17", "@babel/runtime@^7.13.7", "@babel/runtime@^7.13.8", "@babel/runtime@^7.13.9", "@babel/runtime@^7.14.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1498,13 +1498,13 @@
     "@polkadot/util-crypto" "^6.1.1"
     bn.js "^4.11.9"
 
-"@polkadot/metadata@4.7.1":
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/metadata/-/metadata-4.7.1.tgz#1a832934464255c722f6af26ab070e0708390618"
+"@polkadot/metadata@4.8.1":
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/metadata/-/metadata-4.8.1.tgz#112bf9502e008b99dbfcdfe46a0c64d12f43b4f5"
   dependencies:
-    "@babel/runtime" "^7.13.17"
-    "@polkadot/types" "4.7.1"
-    "@polkadot/types-known" "4.7.1"
+    "@babel/runtime" "^7.14.0"
+    "@polkadot/types" "4.8.1"
+    "@polkadot/types-known" "4.8.1"
     "@polkadot/util" "^6.3.1"
     "@polkadot/util-crypto" "^6.3.1"
     bn.js "^4.11.9"
@@ -1556,13 +1556,13 @@
     "@polkadot/util" "^6.1.1"
     bn.js "^4.11.9"
 
-"@polkadot/types-known@4.7.1":
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/types-known/-/types-known-4.7.1.tgz#a6fdd4aa000fc30052c536725ab09c5fd9174037"
+"@polkadot/types-known@4.8.1":
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/types-known/-/types-known-4.8.1.tgz#40444221160b5c57f4c32e0d9103b8a6040c2b21"
   dependencies:
-    "@babel/runtime" "^7.13.17"
+    "@babel/runtime" "^7.14.0"
     "@polkadot/networks" "^6.3.1"
-    "@polkadot/types" "4.7.1"
+    "@polkadot/types" "4.8.1"
     "@polkadot/util" "^6.3.1"
     bn.js "^4.11.9"
 
@@ -1578,12 +1578,12 @@
     "@types/bn.js" "^4.11.6"
     bn.js "^4.11.9"
 
-"@polkadot/types@4.7.1", "@polkadot/types@^4.7.1":
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/types/-/types-4.7.1.tgz#29d053cf8a0fa23fa067264111aab7b82ffb1af3"
+"@polkadot/types@4.8.1", "@polkadot/types@^4.8.1":
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/types/-/types-4.8.1.tgz#0647e561a838538e2fba8fffc2d3801e7ef53f11"
   dependencies:
-    "@babel/runtime" "^7.13.17"
-    "@polkadot/metadata" "4.7.1"
+    "@babel/runtime" "^7.14.0"
+    "@polkadot/metadata" "4.8.1"
     "@polkadot/util" "^6.3.1"
     "@polkadot/util-crypto" "^6.3.1"
     "@polkadot/x-rxjs" "^6.3.1"
