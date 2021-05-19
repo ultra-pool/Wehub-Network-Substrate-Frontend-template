@@ -1603,23 +1603,13 @@
     mkdirp "^1.0.4"
     store "^2.0.12"
 
-"@polkadot/ui-settings@0.76.1":
+"@polkadot/ui-settings@0.76.1", "@polkadot/ui-settings@^0.76.1":
   version "0.76.1"
   resolved "https://registry.yarnpkg.com/@polkadot/ui-settings/-/ui-settings-0.76.1.tgz#693c6de30bbe9ed1b0101c647756be8af8d995d4"
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@polkadot/networks" "^6.4.1"
     "@polkadot/util" "^6.4.1"
-    eventemitter3 "^4.0.7"
-    store "^2.0.12"
-
-"@polkadot/ui-settings@^0.75.1":
-  version "0.75.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/ui-settings/-/ui-settings-0.75.1.tgz#9755b9ca92d1ddb6cc7574caf1c4ff2fc905ff5e"
-  dependencies:
-    "@babel/runtime" "^7.13.17"
-    "@polkadot/networks" "^6.3.1"
-    "@polkadot/util" "^6.3.1"
     eventemitter3 "^4.0.7"
     store "^2.0.12"
 
