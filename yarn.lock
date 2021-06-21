@@ -1000,9 +1000,9 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.17", "@babel/runtime@^7.13.9", "@babel/runtime@^7.14.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.17", "@babel/runtime@^7.13.9", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+  version "7.14.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1487,16 +1487,15 @@
     "@polkadot/util" "6.4.1"
     "@polkadot/util-crypto" "6.4.1"
 
-"@polkadot/metadata@4.10.1":
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/metadata/-/metadata-4.10.1.tgz#f22b76e1fc575c20e44b8ba96949f474505ad5fb"
+"@polkadot/metadata@4.15.1":
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/metadata/-/metadata-4.15.1.tgz#3cd2392b956577edf96090793fd8b9b392a67502"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/types" "4.10.1"
-    "@polkadot/types-known" "4.10.1"
-    "@polkadot/util" "^6.4.1"
-    "@polkadot/util-crypto" "^6.4.1"
-    bn.js "^4.11.9"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/types" "4.15.1"
+    "@polkadot/types-known" "4.15.1"
+    "@polkadot/util" "^6.9.1"
+    "@polkadot/util-crypto" "^6.9.1"
 
 "@polkadot/metadata@4.9.2":
   version "4.9.2"
@@ -1515,7 +1514,13 @@
   dependencies:
     "@babel/runtime" "^7.14.0"
 
-"@polkadot/networks@6.6.1", "@polkadot/networks@^6.3.1", "@polkadot/networks@^6.4.1", "@polkadot/networks@^6.5.1", "@polkadot/networks@^6.6.1":
+"@polkadot/networks@6.9.1", "@polkadot/networks@^6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.9.1.tgz#8d66338569c9891a00cc6737e18c1dbffd7153f5"
+  dependencies:
+    "@babel/runtime" "^7.14.5"
+
+"@polkadot/networks@^6.3.1", "@polkadot/networks@^6.4.1", "@polkadot/networks@^6.5.1", "@polkadot/networks@^6.6.1":
   version "6.6.1"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.6.1.tgz#ceeb9c720218414b09cea7949e321c38f76c37ff"
   dependencies:
@@ -1546,15 +1551,14 @@
     bn.js "^4.11.9"
     eventemitter3 "^4.0.7"
 
-"@polkadot/types-known@4.10.1":
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/types-known/-/types-known-4.10.1.tgz#3377a6482f116c88f82140e7327c9cdea32b0a1d"
+"@polkadot/types-known@4.15.1":
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/types-known/-/types-known-4.15.1.tgz#d60cfb1e4ed315f2c82646795243a34df6b21fd3"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/networks" "^6.4.1"
-    "@polkadot/types" "4.10.1"
-    "@polkadot/util" "^6.4.1"
-    bn.js "^4.11.9"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/networks" "^6.9.1"
+    "@polkadot/types" "4.15.1"
+    "@polkadot/util" "^6.9.1"
 
 "@polkadot/types-known@4.9.2":
   version "4.9.2"
@@ -1566,17 +1570,15 @@
     "@polkadot/util" "^6.3.1"
     bn.js "^4.11.9"
 
-"@polkadot/types@4.10.1", "@polkadot/types@^4.10.1":
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/types/-/types-4.10.1.tgz#603d273ec5ad83cfce9d3eec05bbd198ae9677f0"
+"@polkadot/types@4.15.1", "@polkadot/types@^4.15.1":
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/types/-/types-4.15.1.tgz#03f32fd4ce81d69c43368d3e476c0421cedb8607"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/metadata" "4.10.1"
-    "@polkadot/util" "^6.4.1"
-    "@polkadot/util-crypto" "^6.4.1"
-    "@polkadot/x-rxjs" "^6.4.1"
-    "@types/bn.js" "^4.11.6"
-    bn.js "^4.11.9"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/metadata" "4.15.1"
+    "@polkadot/util" "^6.9.1"
+    "@polkadot/util-crypto" "^6.9.1"
+    "@polkadot/x-rxjs" "^6.9.1"
 
 "@polkadot/types@4.9.2":
   version "4.9.2"
@@ -1644,15 +1646,15 @@
     tweetnacl "^1.0.3"
     xxhashjs "^0.2.2"
 
-"@polkadot/util-crypto@^6.0.5", "@polkadot/util-crypto@^6.3.1", "@polkadot/util-crypto@^6.4.1", "@polkadot/util-crypto@^6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/util-crypto/-/util-crypto-6.6.1.tgz#5065e3cd18b06b804b0ac151d6b00fe853c96c85"
+"@polkadot/util-crypto@^6.0.5", "@polkadot/util-crypto@^6.3.1", "@polkadot/util-crypto@^6.6.1", "@polkadot/util-crypto@^6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/util-crypto/-/util-crypto-6.9.1.tgz#175a2bbc040785599730baee35f0235226b8343e"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/networks" "6.6.1"
-    "@polkadot/util" "6.6.1"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/networks" "6.9.1"
+    "@polkadot/util" "6.9.1"
     "@polkadot/wasm-crypto" "^4.0.2"
-    "@polkadot/x-randomvalues" "6.6.1"
+    "@polkadot/x-randomvalues" "6.9.1"
     base-x "^3.0.8"
     base64-js "^1.5.1"
     blakejs "^1.1.0"
@@ -1677,13 +1679,13 @@
     camelcase "^5.3.1"
     ip-regex "^4.3.0"
 
-"@polkadot/util@6.6.1", "@polkadot/util@^6.0.5", "@polkadot/util@^6.3.1", "@polkadot/util@^6.4.1", "@polkadot/util@^6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-6.6.1.tgz#baa29a958dbf5843dbb0fb02d8e80c23cb803f58"
+"@polkadot/util@6.9.1", "@polkadot/util@^6.0.5", "@polkadot/util@^6.3.1", "@polkadot/util@^6.4.1", "@polkadot/util@^6.6.1", "@polkadot/util@^6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-6.9.1.tgz#009a9e0771523398517dbf3a978285b071f6081c"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/x-textdecoder" "6.6.1"
-    "@polkadot/x-textencoder" "6.6.1"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/x-textdecoder" "6.9.1"
+    "@polkadot/x-textencoder" "6.9.1"
     "@types/bn.js" "^4.11.6"
     bn.js "^4.11.9"
     camelcase "^5.3.1"
@@ -1734,11 +1736,11 @@
     "@types/node-fetch" "^2.5.10"
     node-fetch "^2.6.1"
 
-"@polkadot/x-global@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-global/-/x-global-6.6.1.tgz#25539a429f16ad786948f5160f3d3cbe05ec00f3"
+"@polkadot/x-global@6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-global/-/x-global-6.9.1.tgz#c3d7482e2ac62c306379592550d476fc60ce7dfe"
   dependencies:
-    "@babel/runtime" "^7.14.0"
+    "@babel/runtime" "^7.14.5"
     "@types/node-fetch" "^2.5.10"
     node-fetch "^2.6.1"
 
@@ -1749,18 +1751,18 @@
     "@babel/runtime" "^7.14.0"
     "@polkadot/x-global" "6.4.1"
 
-"@polkadot/x-randomvalues@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-randomvalues/-/x-randomvalues-6.6.1.tgz#7fd56f664a4f5a37feab27f9d4570814038778ce"
+"@polkadot/x-randomvalues@6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-randomvalues/-/x-randomvalues-6.9.1.tgz#e289e79849e332777fb96e8544b1193a4e793e59"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/x-global" "6.6.1"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/x-global" "6.9.1"
 
-"@polkadot/x-rxjs@^6.3.1", "@polkadot/x-rxjs@^6.4.1":
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-rxjs/-/x-rxjs-6.4.1.tgz#c6e8cef8dc3f20b4c7468bd6976d843947da1f15"
+"@polkadot/x-rxjs@^6.3.1", "@polkadot/x-rxjs@^6.4.1", "@polkadot/x-rxjs@^6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-rxjs/-/x-rxjs-6.9.1.tgz#713a399568922aff10fe47c3875dba44a139d6c6"
   dependencies:
-    "@babel/runtime" "^7.14.0"
+    "@babel/runtime" "^7.14.5"
     rxjs "^6.6.7"
 
 "@polkadot/x-textdecoder@6.4.1":
@@ -1770,12 +1772,12 @@
     "@babel/runtime" "^7.14.0"
     "@polkadot/x-global" "6.4.1"
 
-"@polkadot/x-textdecoder@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-textdecoder/-/x-textdecoder-6.6.1.tgz#2f005df0e21d3d423395659008a95638e445ea27"
+"@polkadot/x-textdecoder@6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-textdecoder/-/x-textdecoder-6.9.1.tgz#dab6e95b35c9386550c4907fd1efb195ab605ec9"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/x-global" "6.6.1"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/x-global" "6.9.1"
 
 "@polkadot/x-textencoder@6.4.1":
   version "6.4.1"
@@ -1784,12 +1786,12 @@
     "@babel/runtime" "^7.14.0"
     "@polkadot/x-global" "6.4.1"
 
-"@polkadot/x-textencoder@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-textencoder/-/x-textencoder-6.6.1.tgz#d0678aa001af66561fc1913e76c9704567e3df3d"
+"@polkadot/x-textencoder@6.9.1":
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-textencoder/-/x-textencoder-6.9.1.tgz#cf98a3f248ad9a4cdb2559f950ff6559d009b619"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/x-global" "6.6.1"
+    "@babel/runtime" "^7.14.5"
+    "@polkadot/x-global" "6.9.1"
 
 "@polkadot/x-ws@^6.3.1":
   version "6.3.1"
