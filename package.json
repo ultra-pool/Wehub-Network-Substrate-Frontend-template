@@ -35,7 +35,7 @@
     "semantic-ui-react": "^2.0.3"
   },
   "devDependencies": {
-    "eslint": "^7.29.0",
+    "eslint": "^7.31.0",
     "eslint-config-semistandard": "^16.0.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
