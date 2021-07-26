@@ -1000,9 +1000,9 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.9", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
-  version "7.14.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.9", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+  version "7.14.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.8.tgz#7119a56f421018852694290b9f9148097391b446"
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1294,87 +1294,71 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@ledgerhq/devices@^5.49.0":
-  version "5.49.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/devices/-/devices-5.49.0.tgz#86733944ea724acb974b136e46487a90ee0bfa6e"
+"@ledgerhq/devices@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/devices/-/devices-6.2.0.tgz#2dd38ff81bb72d5d93eb9137574ef53a83f68b78"
   dependencies:
-    "@ledgerhq/errors" "^5.49.0"
-    "@ledgerhq/logs" "^5.49.0"
-    rxjs "^6.6.7"
-    semver "^7.3.5"
-
-"@ledgerhq/devices@^5.51.1":
-  version "5.51.1"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/devices/-/devices-5.51.1.tgz#d741a4a5d8f17c2f9d282fd27147e6fe1999edb7"
-  dependencies:
-    "@ledgerhq/errors" "^5.50.0"
-    "@ledgerhq/logs" "^5.50.0"
+    "@ledgerhq/errors" "^6.2.0"
+    "@ledgerhq/logs" "^6.2.0"
     rxjs "6"
     semver "^7.3.5"
 
-"@ledgerhq/errors@^5.49.0":
-  version "5.49.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/errors/-/errors-5.49.0.tgz#8ecb43bb702504d9fc94ee12022d81d6e36cb5ce"
+"@ledgerhq/errors@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/errors/-/errors-6.2.0.tgz#7dc2b3bf6bdedccdaa1b97dccacfa912c4fc22f8"
 
-"@ledgerhq/errors@^5.50.0":
-  version "5.50.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/errors/-/errors-5.50.0.tgz#e3a6834cb8c19346efca214c1af84ed28e69dad9"
-
-"@ledgerhq/hw-transport-node-hid-noevents@^5.51.1":
-  version "5.51.1"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid-noevents/-/hw-transport-node-hid-noevents-5.51.1.tgz#71f37f812e448178ad0bcc2258982150d211c1ab"
+"@ledgerhq/hw-transport-node-hid-noevents@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid-noevents/-/hw-transport-node-hid-noevents-6.2.0.tgz#334232c686c49be28a3c9e78b302d02a4598b85b"
   dependencies:
-    "@ledgerhq/devices" "^5.51.1"
-    "@ledgerhq/errors" "^5.50.0"
-    "@ledgerhq/hw-transport" "^5.51.1"
-    "@ledgerhq/logs" "^5.50.0"
+    "@ledgerhq/devices" "^6.2.0"
+    "@ledgerhq/errors" "^6.2.0"
+    "@ledgerhq/hw-transport" "^6.2.0"
+    "@ledgerhq/logs" "^6.2.0"
     node-hid "2.1.1"
 
-"@ledgerhq/hw-transport-node-hid-singleton@^5.51.1":
-  version "5.51.1"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid-singleton/-/hw-transport-node-hid-singleton-5.51.1.tgz#68f2f610fbd5c91588f3ee5508c6dfb2b3a8491a"
+"@ledgerhq/hw-transport-node-hid-singleton@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid-singleton/-/hw-transport-node-hid-singleton-6.2.0.tgz#def123f3ca2defa2d394157112011d79ddd38cd7"
   dependencies:
-    "@ledgerhq/devices" "^5.51.1"
-    "@ledgerhq/errors" "^5.50.0"
-    "@ledgerhq/hw-transport" "^5.51.1"
-    "@ledgerhq/hw-transport-node-hid-noevents" "^5.51.1"
-    "@ledgerhq/logs" "^5.50.0"
+    "@ledgerhq/devices" "^6.2.0"
+    "@ledgerhq/errors" "^6.2.0"
+    "@ledgerhq/hw-transport" "^6.2.0"
+    "@ledgerhq/hw-transport-node-hid-noevents" "^6.2.0"
+    "@ledgerhq/logs" "^6.2.0"
     lodash "^4.17.21"
     node-hid "2.1.1"
     usb-detection "^4.10.0"
 
-"@ledgerhq/hw-transport-webusb@^5.51.1":
-  version "5.51.1"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-webusb/-/hw-transport-webusb-5.51.1.tgz#664a46dcde36ff78107dea44e32a1647d8e2e93f"
+"@ledgerhq/hw-transport-webhid@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-webhid/-/hw-transport-webhid-6.2.0.tgz#be414916cd4b8edcbcdbb53d6966a1f12074fcdc"
   dependencies:
-    "@ledgerhq/devices" "^5.51.1"
-    "@ledgerhq/errors" "^5.50.0"
-    "@ledgerhq/hw-transport" "^5.51.1"
-    "@ledgerhq/logs" "^5.50.0"
+    "@ledgerhq/devices" "^6.2.0"
+    "@ledgerhq/errors" "^6.2.0"
+    "@ledgerhq/hw-transport" "^6.2.0"
+    "@ledgerhq/logs" "^6.2.0"
 
-"@ledgerhq/hw-transport@^5.49.0":
-  version "5.49.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport/-/hw-transport-5.49.0.tgz#f0c7c22c19e38d9338ec1056713f80e0a669cc31"
+"@ledgerhq/hw-transport-webusb@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-webusb/-/hw-transport-webusb-6.2.0.tgz#5731ac9da48ba984a1c729f32185c823f8a3ff5e"
   dependencies:
-    "@ledgerhq/devices" "^5.49.0"
-    "@ledgerhq/errors" "^5.49.0"
+    "@ledgerhq/devices" "^6.2.0"
+    "@ledgerhq/errors" "^6.2.0"
+    "@ledgerhq/hw-transport" "^6.2.0"
+    "@ledgerhq/logs" "^6.2.0"
+
+"@ledgerhq/hw-transport@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport/-/hw-transport-6.2.0.tgz#b3bf21e6d8a0552bf67b0d0be5139c6b855ba5ca"
+  dependencies:
+    "@ledgerhq/devices" "^6.2.0"
+    "@ledgerhq/errors" "^6.2.0"
     events "^3.3.0"
 
-"@ledgerhq/hw-transport@^5.51.1":
-  version "5.51.1"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport/-/hw-transport-5.51.1.tgz#8dd14a8e58cbee4df0c29eaeef983a79f5f22578"
-  dependencies:
-    "@ledgerhq/devices" "^5.51.1"
-    "@ledgerhq/errors" "^5.50.0"
-    events "^3.3.0"
-
-"@ledgerhq/logs@^5.49.0":
-  version "5.49.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-5.49.0.tgz#e14e34df1605c17d6b90eb32c591c7b3de3fbae8"
-
-"@ledgerhq/logs@^5.50.0":
-  version "5.50.0"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-5.50.0.tgz#29c6419e8379d496ab6d0426eadf3c4d100cd186"
+"@ledgerhq/logs@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-6.2.0.tgz#9fb2d6f1811316697f7b3cc14607f6c608912419"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -1456,31 +1440,41 @@
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-"@polkadot/hw-ledger-transports@6.4.1":
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/hw-ledger-transports/-/hw-ledger-transports-6.4.1.tgz#03c1daf0985fe79793e0296a1e9e21bd87aa1a6e"
+"@polkadot/hw-ledger-transports@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/hw-ledger-transports/-/hw-ledger-transports-7.0.3.tgz#906869079bdbdf4ae9872c898e2e652e7e647a02"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@ledgerhq/hw-transport-webusb" "^5.51.1"
+    "@babel/runtime" "^7.14.8"
+    "@ledgerhq/hw-transport" "^6.2.0"
+    "@ledgerhq/hw-transport-webhid" "^6.2.0"
+    "@ledgerhq/hw-transport-webusb" "^6.2.0"
   optionalDependencies:
-    "@ledgerhq/hw-transport-node-hid-singleton" "^5.51.1"
+    "@ledgerhq/hw-transport-node-hid-singleton" "^6.2.0"
 
-"@polkadot/hw-ledger@^6.4.1":
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/hw-ledger/-/hw-ledger-6.4.1.tgz#260b7f69106b343ed501759c8699f6f30d40ac5f"
+"@polkadot/hw-ledger@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/hw-ledger/-/hw-ledger-7.0.3.tgz#ac073b0fe4591ab3a892ec373d309c07c122c02e"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/hw-ledger-transports" "6.4.1"
-    "@polkadot/util" "^6.4.1"
-    "@zondax/ledger-polkadot" "^0.13.6"
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/hw-ledger-transports" "7.0.3"
+    "@polkadot/util" "^7.0.3"
+    "@zondax/ledger-substrate" "^0.17.3"
 
-"@polkadot/keyring@^6.11.1", "@polkadot/keyring@^6.4.1":
+"@polkadot/keyring@^6.11.1":
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/@polkadot/keyring/-/keyring-6.11.1.tgz#2510c349c965c74cc2f108f114f1048856940604"
   dependencies:
     "@babel/runtime" "^7.14.6"
     "@polkadot/util" "6.11.1"
     "@polkadot/util-crypto" "6.11.1"
+
+"@polkadot/keyring@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/keyring/-/keyring-7.0.3.tgz#845539d1c099bf2c01e030cd1f8817aacce2bb7d"
+  dependencies:
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/util" "7.0.3"
+    "@polkadot/util-crypto" "7.0.3"
 
 "@polkadot/metadata@4.17.1":
   version "4.17.1"
@@ -1492,17 +1486,17 @@
     "@polkadot/util" "^6.11.1"
     "@polkadot/util-crypto" "^6.11.1"
 
-"@polkadot/networks@6.11.1", "@polkadot/networks@^6.11.1", "@polkadot/networks@^6.4.1", "@polkadot/networks@^6.5.1":
+"@polkadot/networks@6.11.1", "@polkadot/networks@^6.11.1", "@polkadot/networks@^6.5.1":
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.11.1.tgz#8fd189593f6ee4f8bf64378d0aaae09e39a37d35"
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-"@polkadot/networks@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-7.0.1.tgz#e07c4b88e25711433e76d24fce4c7273c25dd38b"
+"@polkadot/networks@7.0.3", "@polkadot/networks@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-7.0.3.tgz#6d1d8bc284bc2158919feabc155ff0075e9af4d9"
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.14.8"
 
 "@polkadot/rpc-core@4.17.1":
   version "4.17.1"
@@ -1547,36 +1541,26 @@
     "@polkadot/util-crypto" "^6.11.1"
     "@polkadot/x-rxjs" "^6.11.1"
 
-"@polkadot/ui-keyring@^0.76.1":
-  version "0.76.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/ui-keyring/-/ui-keyring-0.76.1.tgz#0c8dc595b28cc80ed822ce8313ec6021a4688b7a"
+"@polkadot/ui-keyring@^0.84.2":
+  version "0.84.2"
+  resolved "https://registry.yarnpkg.com/@polkadot/ui-keyring/-/ui-keyring-0.84.2.tgz#fa363cdeeb8fc2f64f054725379c1c2185c70601"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/hw-ledger" "^6.4.1"
-    "@polkadot/keyring" "^6.4.1"
-    "@polkadot/ui-settings" "0.76.1"
-    "@polkadot/util" "^6.4.1"
-    "@polkadot/x-rxjs" "^6.4.1"
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/hw-ledger" "^7.0.3"
+    "@polkadot/keyring" "^7.0.3"
+    "@polkadot/ui-settings" "0.84.2"
+    "@polkadot/util" "^7.0.3"
     mkdirp "^1.0.4"
+    rxjs "^7.2.0"
     store "^2.0.12"
 
-"@polkadot/ui-settings@0.76.1":
-  version "0.76.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/ui-settings/-/ui-settings-0.76.1.tgz#693c6de30bbe9ed1b0101c647756be8af8d995d4"
+"@polkadot/ui-settings@0.84.2", "@polkadot/ui-settings@^0.84.1":
+  version "0.84.2"
+  resolved "https://registry.yarnpkg.com/@polkadot/ui-settings/-/ui-settings-0.84.2.tgz#dd06cbab2508782a7e6361298c12691fa1637587"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    "@polkadot/networks" "^6.4.1"
-    "@polkadot/util" "^6.4.1"
-    eventemitter3 "^4.0.7"
-    store "^2.0.12"
-
-"@polkadot/ui-settings@^0.84.1":
-  version "0.84.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/ui-settings/-/ui-settings-0.84.1.tgz#302fb1c18d07b54ceec711e1879ebbf9261dc421"
-  dependencies:
-    "@babel/runtime" "^7.14.6"
-    "@polkadot/networks" "^7.0.1"
-    "@polkadot/util" "^7.0.1"
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/networks" "^7.0.3"
+    "@polkadot/util" "^7.0.3"
     eventemitter3 "^4.0.7"
     store "^2.0.12"
 
@@ -1601,7 +1585,28 @@
     tweetnacl "^1.0.3"
     xxhashjs "^0.2.2"
 
-"@polkadot/util@6.11.1", "@polkadot/util@^6.10.1", "@polkadot/util@^6.11.1", "@polkadot/util@^6.4.1", "@polkadot/util@^6.7.1":
+"@polkadot/util-crypto@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/util-crypto/-/util-crypto-7.0.3.tgz#2a69eec86a067f6f2fa36cfda9796eb91fc823e3"
+  dependencies:
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/networks" "7.0.3"
+    "@polkadot/util" "7.0.3"
+    "@polkadot/wasm-crypto" "^4.1.2"
+    "@polkadot/x-randomvalues" "7.0.3"
+    base-x "^3.0.8"
+    base64-js "^1.5.1"
+    blakejs "^1.1.1"
+    bn.js "^4.11.9"
+    create-hash "^1.2.0"
+    elliptic "^6.5.4"
+    hash.js "^1.1.7"
+    js-sha3 "^0.8.0"
+    scryptsy "^2.1.0"
+    tweetnacl "^1.0.3"
+    xxhashjs "^0.2.2"
+
+"@polkadot/util@6.11.1", "@polkadot/util@^6.10.1", "@polkadot/util@^6.11.1", "@polkadot/util@^6.7.1":
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-6.11.1.tgz#8950b038ba3e6ebfc0a7ff47feeb972e81b2626c"
   dependencies:
@@ -1613,13 +1618,13 @@
     camelcase "^5.3.1"
     ip-regex "^4.3.0"
 
-"@polkadot/util@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-7.0.1.tgz#79afd40473016876f51d65ebb9900a20108fe0a4"
+"@polkadot/util@7.0.3", "@polkadot/util@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/util/-/util-7.0.3.tgz#89887a18c0e39b2b1e22554974e9e02649db6018"
   dependencies:
-    "@babel/runtime" "^7.14.6"
-    "@polkadot/x-textdecoder" "7.0.1"
-    "@polkadot/x-textencoder" "7.0.1"
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/x-textdecoder" "7.0.3"
+    "@polkadot/x-textencoder" "7.0.3"
     "@types/bn.js" "^4.11.6"
     bn.js "^4.11.9"
     camelcase "^5.3.1"
@@ -1631,11 +1636,23 @@
   dependencies:
     "@babel/runtime" "^7.13.9"
 
+"@polkadot/wasm-crypto-asmjs@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@polkadot/wasm-crypto-asmjs/-/wasm-crypto-asmjs-4.1.2.tgz#094b3eeeb5fd39a93db177583b48454511874cfc"
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+
 "@polkadot/wasm-crypto-wasm@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@polkadot/wasm-crypto-wasm/-/wasm-crypto-wasm-4.0.2.tgz#89f9e0a1e4d076784d4a42bea37fc8b06bdd8bb6"
   dependencies:
     "@babel/runtime" "^7.13.9"
+
+"@polkadot/wasm-crypto-wasm@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@polkadot/wasm-crypto-wasm/-/wasm-crypto-wasm-4.1.2.tgz#773c78c1d65886671d3ba1d66c31afd86c93d02f"
+  dependencies:
+    "@babel/runtime" "^7.14.6"
 
 "@polkadot/wasm-crypto@^4.0.2":
   version "4.0.2"
@@ -1644,6 +1661,14 @@
     "@babel/runtime" "^7.13.9"
     "@polkadot/wasm-crypto-asmjs" "^4.0.2"
     "@polkadot/wasm-crypto-wasm" "^4.0.2"
+
+"@polkadot/wasm-crypto@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@polkadot/wasm-crypto/-/wasm-crypto-4.1.2.tgz#dead71ae5d2f7722d23aed5be2112e1732d315e9"
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    "@polkadot/wasm-crypto-asmjs" "^4.1.2"
+    "@polkadot/wasm-crypto-wasm" "^4.1.2"
 
 "@polkadot/x-fetch@^6.11.1":
   version "6.11.1"
@@ -1660,11 +1685,11 @@
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-"@polkadot/x-global@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-global/-/x-global-7.0.1.tgz#44fb248d3aaea557753318327149772969e96bff"
+"@polkadot/x-global@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-global/-/x-global-7.0.3.tgz#755fa6e740f00d8e34133a3cd11fe5a34d234631"
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.14.8"
 
 "@polkadot/x-randomvalues@6.11.1":
   version "6.11.1"
@@ -1673,7 +1698,14 @@
     "@babel/runtime" "^7.14.6"
     "@polkadot/x-global" "6.11.1"
 
-"@polkadot/x-rxjs@^6.11.1", "@polkadot/x-rxjs@^6.4.1":
+"@polkadot/x-randomvalues@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-randomvalues/-/x-randomvalues-7.0.3.tgz#3559efabe8c2cac442b040e18c636f2dcec9064f"
+  dependencies:
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/x-global" "7.0.3"
+
+"@polkadot/x-rxjs@^6.11.1":
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/@polkadot/x-rxjs/-/x-rxjs-6.11.1.tgz#5454708b61da70eea05708611d9148fce9372498"
   dependencies:
@@ -1687,12 +1719,12 @@
     "@babel/runtime" "^7.14.6"
     "@polkadot/x-global" "6.11.1"
 
-"@polkadot/x-textdecoder@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-textdecoder/-/x-textdecoder-7.0.1.tgz#bb9bba94b2eb1612dd35c299f43ab74515db74d9"
+"@polkadot/x-textdecoder@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-textdecoder/-/x-textdecoder-7.0.3.tgz#eccf602afb85bb94406f99284a62d58a5c7142c8"
   dependencies:
-    "@babel/runtime" "^7.14.6"
-    "@polkadot/x-global" "7.0.1"
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/x-global" "7.0.3"
 
 "@polkadot/x-textencoder@6.11.1":
   version "6.11.1"
@@ -1701,12 +1733,12 @@
     "@babel/runtime" "^7.14.6"
     "@polkadot/x-global" "6.11.1"
 
-"@polkadot/x-textencoder@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/x-textencoder/-/x-textencoder-7.0.1.tgz#181d403c5dc1d94fd1e2147fd1c5c528d30d8805"
+"@polkadot/x-textencoder@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@polkadot/x-textencoder/-/x-textencoder-7.0.3.tgz#92125d2f58f6d6dc7337856e9f2a6edca0e38655"
   dependencies:
-    "@babel/runtime" "^7.14.6"
-    "@polkadot/x-global" "7.0.1"
+    "@babel/runtime" "^7.14.8"
+    "@polkadot/x-global" "7.0.3"
 
 "@polkadot/x-ws@^6.11.1":
   version "6.11.1"
@@ -2285,17 +2317,18 @@
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
 
-"@zondax/ledger-polkadot@^0.13.6":
-  version "0.13.6"
-  resolved "https://registry.yarnpkg.com/@zondax/ledger-polkadot/-/ledger-polkadot-0.13.6.tgz#9c577673ec59604356dbccfc715ded2e0dfc54b0"
+"@zondax/ledger-substrate@^0.17.3":
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/@zondax/ledger-substrate/-/ledger-substrate-0.17.3.tgz#4fddb8676bb2f04c6d4e36c34ddbf89a23b1b822"
   dependencies:
-    "@babel/runtime" "^7.13.10"
-    "@ledgerhq/hw-transport" "^5.49.0"
+    "@babel/runtime" "^7.14.8"
+    "@ledgerhq/hw-transport" "^6.2.0"
     bip32 "2.0.6"
     bip32-ed25519 "git+https://github.com/Zondax/bip32-ed25519.git"
-    bip39 "3.0.3"
-    blakejs "^1.1.0"
+    bip39 "3.0.4"
+    blakejs "^1.1.1"
     bs58 "^4.0.1"
+    hash.js "^1.1.7"
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
@@ -2888,9 +2921,9 @@ bip32@2.0.6:
     typeforce "^1.11.5"
     wif "^2.0.6"
 
-bip39@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/bip39/-/bip39-3.0.3.tgz#4a8b79067d6ed2e74f9199ac994a2ab61b176760"
+bip39@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/bip39/-/bip39-3.0.4.tgz#5b11fed966840b5e1b8539f0f54ab6392969b2a0"
   dependencies:
     "@types/node" "11.11.6"
     create-hash "^1.1.0"
@@ -2904,10 +2937,6 @@ bl@^4.0.3:
     buffer "^5.5.0"
     inherits "^2.0.4"
     readable-stream "^3.4.0"
-
-blakejs@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/blakejs/-/blakejs-1.1.0.tgz#69df92ef953aa88ca51a32df6ab1c54a155fc7a5"
 
 blakejs@^1.1.1:
   version "1.1.1"
@@ -9172,6 +9201,12 @@ rxjs@6, rxjs@^6.6.7:
   dependencies:
     tslib "^1.9.0"
 
+rxjs@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.2.0.tgz#5cd12409639e9514a71c9f5f9192b2c4ae94de31"
+  dependencies:
+    tslib "~2.1.0"
+
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -10214,7 +10249,7 @@ tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
 
-tslib@^2.0.3:
+tslib@^2.0.3, tslib@~2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
 
